@@ -16,5 +16,5 @@ function distanceInKmBetweenEarthCoordinates(lat1, lon1, lat2, lon2) {
   
   let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   
-  return earthRadiusKm * c;
+  return EARTH_RADIUS_IN_KM * c;
 }
